@@ -1,13 +1,23 @@
-import React from 'react';
+import React from "react";
 import Header from "./components/header";
 import "bootstrap/dist/css/bootstrap.min.css";
-import './App.css';
+import Container from "react-bootstrap/Container";
+import Advice from "./components/Advice";
+import Row from "react-bootstrap/Row";
+import Col from "react-bootstrap/Col";
+import "./App.css";
 
 function App() {
   return (
     <>
-    <Header></Header>
-     <h1>Hello</h1>
+      <Header></Header>
+      <Container>
+        <Row>
+          <Col style={{ marginTop: 80 }}>
+            <Advice />
+          </Col>
+        </Row>
+      </Container>
     </>
   );
 }
