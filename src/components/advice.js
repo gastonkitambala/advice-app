@@ -5,7 +5,7 @@ import Buttons from "./buttons";
 import axios from "axios";
 
 import Loader from "./loader";
-import AdviceDetails from "./AdviceDetails";
+import AdviceDetails from "./adviceDetails";
 import { Container } from "react-bootstrap";
 const apiEndpoint = "https://api.adviceslip.com/advice";
 const searchApiEndpoint = "https://api.adviceslip.com/advice/search/";
